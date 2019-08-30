@@ -130,7 +130,7 @@ EMAIL_PORT	=	587
 EMAIL_USE_TLS	=	True
 
 EMAIL_BACKEND	=	'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL  = 'admin@my-site.com'.
+DEFAULT_FROM_EMAIL  = 'admin@my-site.com'
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
